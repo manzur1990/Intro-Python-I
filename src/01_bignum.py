@@ -3,11 +3,11 @@
 
 # YOUR CODE HERE
 
+# 1st
 n = 2
 e = 65536
-
 n = n ** e
-
 # print(n)
 
-# print(2**65536)
+# 2nd
+print(2**65536)
