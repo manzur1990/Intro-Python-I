@@ -68,6 +68,12 @@ print(f3(8))     # Should print 9
 
 # YOUR CODE HERE
 
+# Example
+# def myFun(**kwargs):
+# 	for key, value in kwargs.items():
+# 		print ("%s = %s" %(key, value))
+
+
 def f4(**kwargs):
     for i in kwargs.keys():
         print(f'key:{i}, value:{kwargs[i]}')
