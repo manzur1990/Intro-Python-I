@@ -14,23 +14,26 @@ import platform
 
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
+for arg in sys.argv:
+    print(arg)
 
-# print("this is the name of the program", sys.argv[0])
-# print("Argument List:", str(sys.argv))
-# print("Number of element exluding the name of the program:", (len(sys.argv)-1))
+print("this is the name of the program", sys.argv[0])
+print("Argument List:", str(sys.argv))
+
+print("Number of element exluding the name of the program:", (len(sys.argv)-1))
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE
 
 
 # print(os.name)
-# print(platform.system())
+print(platform.system())
 
 
 # Print out the version of Python you're using:
 # YOUR CODE HERE
 
-# print(platform.release())
+print(platform.release())
 
 # See the docs for the OS module: https://docs.python.org/3.7/library/os.html
 
