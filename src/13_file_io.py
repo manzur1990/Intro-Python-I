@@ -13,7 +13,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 with open('foo.txt') as f:
     print(f.read())
-    f.close()
+
 
 print(f"closed: {f.closed}")
 
@@ -26,10 +26,11 @@ print(f"closed: {f.closed}")
 
 f = open('bar.txt', 'w')
 f.write('This\n is\n SPARTA!\n')
+f.close()
 
 with open('bar.txt') as f:
     read_data = f.read()
     print(read_data)
-    f.close()
+
 
 print(f"closed: {f.closed}")
