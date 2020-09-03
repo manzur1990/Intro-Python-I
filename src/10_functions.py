@@ -10,3 +10,15 @@ num = int(num)
 
 # YOUR CODE HERE
 
+
+def is_even(num):
+    if num % 2 == 0:
+        print("-----You Have Entered an Even Number-----")
+        return True
+
+    else:
+        print("-----You Have Entered an Odd Number-----")
+        return False
+
+
+is_even(num)
